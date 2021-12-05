@@ -6,7 +6,7 @@ querystring = {"station":"mumbai"}
 
 headers = {
     'x-rapidapi-host': "indianrailways.p.rapidapi.com",
-    'x-rapidapi-key': "171b434de4msh9ce09d4c3be544fp1ff4b1jsnb8ae3c020020"
+    'x-rapidapi-key': "your_rapidapi_key_here"
     }
 
 response = requests.request("GET", url, headers=headers, params=querystring)
@@ -19,7 +19,7 @@ query = {"pnr":pnr}
 
 header = {
     'x-rapidapi-host': "indianrailways.p.rapidapi.com",
-    'x-rapidapi-key': "171b434de4msh9ce09d4c3be544fp1ff4b1jsnb8ae3c020020"
+    'x-rapidapi-key': "your_rapidapi_key_here"
     }
 
 got= requests.request("GET", link, headers=header, params=query)
