@@ -7,7 +7,7 @@ headers = {
     'content-type': "application/x-www-form-urlencoded",
     'accept-encoding': "application/gzip",
     'x-rapidapi-host': "google-translate1.p.rapidapi.com",
-    'x-rapidapi-key': "171b434de4msh9ce09d4c3be544fp1ff4b1jsnb8ae3c020020"
+    'x-rapidapi-key': "your_rapidapi_key_here"
 }
 response = requests.request("POST", url, data=query, headers=headers)
 print(response.text)
